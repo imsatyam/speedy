@@ -1,5 +1,5 @@
 # Summary
-Quite often we are in need to certain basic utilities like json formatting or json diff or Base64 encoding. We tend to look for available options like Jsonlint, JsonDiff and others. However, sometimes we do have concerns around putting data on internet while using these utilities. Can we have something in-house?
+Quite often we are in need of certain basic utilities like json formatting or json diff or Base64 encoding. We tend to look for available options like Jsonlint, JsonDiff and others. However, sometimes we do have concerns around putting data on internet while using these utilities. Can we have something in-house?
 
 # speedy!
 It is a very specialized and relatively limited in capability application using angular 7, bootstrap 4 and node 11. It was created as part of lab exercise while exploring angular 7 basics. It uses existing libraries, functions and components to provide necessary utilities.
@@ -27,3 +27,7 @@ It will be later modified to use only one port.
 
 # Have suggestions?
 Please feel free to send pull requests or add comments. 
+
+# Related blogs
+https://appdividend.com/2018/11/04/angular-7-crud-example-mean-stack-tutorial/
+https://www.djamware.com/post/5bca67d780aca7466989441f/angular-7-tutorial-building-crud-web-application
