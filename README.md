@@ -20,8 +20,8 @@ It is a very specialized and relatively limited in capability application using 
 
 # Ports used
 Speedy uses two ports currently - 
-4200 - Used by angular cli.
-4201 - Node service
+1. 4200 - Used by angular cli.
+2. 4201 - Node service
 
 It will be later modified to use only one port.
 

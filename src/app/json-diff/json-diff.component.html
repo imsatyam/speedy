@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div class="card col-xs-12">
+        <div class="card-body">
+          <textarea class="form-control" [(ngModel)]="dataComparison.first" rows=5
+          placeholder="First json..."></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="card col-xs-12">
+        <div class="card-body">
+          <textarea class="form-control" [(ngModel)]="dataComparison.second" rows=5
+          placeholder="Second json..."></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-top-10px">
+    <div class="col-xs-12 col-md-12">
+      <div class="card col-xs-12 col-md-12">
+        <div class="card-body comparison-result-card-body">
+          <div class="margin-bottom-10px">
+            Diff Result
+          </div>
+          <inline-diff [oldText]="dataComparison.first" [newText]="dataComparison.second" [lineContextSize]="4"></inline-diff>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
